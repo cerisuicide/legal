@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一隅隐私协议</title>
+  <meta name="description" content="一隅：菜单栏阅读器隐私协议。">
+  <style>
+    :root { color-scheme: light; --ink:#1d1d1f; --muted:#6e6e73; --line:#d2d2d7; --accent:#0071e3; --bg:#f5f5f7; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif; }
+    main { max-width:820px; margin:0 auto; padding:64px 24px 88px; }
+    header { margin-bottom:42px; }
+    h1 { margin:0 0 10px; font-size:40px; letter-spacing:-.03em; }
+    .updated { margin:0; color:var(--muted); font-size:14px; }
+    article { padding:34px 36px 40px; background:#fff; border:1px solid var(--line); border-radius:20px; }
+    h2 { margin:30px 0 10px; font-size:21px; letter-spacing:-.01em; }
+    h2:first-child { margin-top:0; }
+    p, li { line-height:1.78; }
+    ul { margin:8px 0 0; padding-left:1.35em; }
+    a { color:var(--accent); }
+    .back { display:inline-block; margin-top:28px; color:var(--accent); text-decoration:none; }
+    .back:hover { text-decoration:underline; }
+    footer { margin-top:36px; color:var(--muted); font-size:14px; }
+    @media (max-width:600px) { main { padding:40px 16px 64px; } article { padding:26px 22px 30px; } h1 { font-size:32px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>一隅隐私协议</h1>
+      <p class="updated">生效日期：2026 年 9 月 13 日</p>
+    </header>
+
+    <article>
+      <h2>一、适用范围</h2>
+      <p>本隐私协议适用于 macOS 应用“一隅：菜单栏阅读器”（以下简称“一隅”）。一隅由 Yuan Gao 开发和维护。</p>
+
+      <h2>二、我们收集什么数据</h2>
+      <p>一隅不会向开发者或第三方收集、上传、出售或共享个人数据。应用不要求注册或登录，也不包含广告、行为分析、崩溃追踪或其他远程统计服务。</p>
+
+      <h2>三、书籍和阅读设置</h2>
+      <p>一隅在你的 Mac 本机处理你主动选择导入的 EPUB、TXT、MOBI、AZW 或 AZW3 文件。书籍内容、解析后的本地缓存、阅读位置和阅读设置都保存在本机，不会发送到服务器。</p>
+      <p>应用可能在以下位置保存本地数据：</p>
+      <ul>
+        <li>书籍缓存：<code>~/Library/Application Support/YiYu/Books/</code></li>
+        <li>阅读位置和设置：macOS 的应用偏好设置（标识符为 <code>site.gaoyuan.yiyu</code>）</li>
+      </ul>
+      <p>移除书籍时，一隅只处理自己的缓存；原始文件不会被修改。</p>
+
+      <h2>四、文件访问权限</h2>
+      <p>一隅使用 macOS 的文件选择器访问你明确选择的文件或文件夹，并在 App Sandbox 中运行。除完成导入和阅读所需的操作外，应用不会主动扫描或读取你的其他文件。</p>
+
+      <h2>五、网络连接和第三方服务</h2>
+      <p>一隅的阅读功能不依赖网络，不请求远程图片，也不把书籍内容或阅读数据发送给第三方。应用使用的开源解析组件仅用于本地文件解析。</p>
+
+      <h2>六、儿童隐私</h2>
+      <p>一隅不收集个人数据，因此不会针对儿童建立或维护个人信息档案。</p>
+
+      <h2>七、协议变更</h2>
+      <p>如果应用的隐私处理方式发生变化，我们会在本页面更新协议内容和生效日期。继续使用更新后的一隅表示你已看到更新后的协议。</p>
+
+      <h2>八、联系我们</h2>
+      <p>如果你对本协议或一隅的隐私处理有疑问，可以通过<a href="https://gaoyuan.site/message">留言页面</a>联系开发者。</p>
+    </article>
+
+    <a class="back" href="../../">← 返回隐私协议目录</a>
+    <footer>© 2026 Yuan Gao</footer>
+  </main>
+</body>
+</html>
