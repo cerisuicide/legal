@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一隅支持</title>
+  <meta name="description" content="一隅：菜单栏阅读器的使用帮助和联系入口。">
+  <style>
+    :root { color-scheme: light; --ink:#1d1d1f; --muted:#6e6e73; --line:#d2d2d7; --accent:#0071e3; --bg:#f5f5f7; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif; }
+    main { max-width:820px; margin:0 auto; padding:64px 24px 88px; }
+    header { margin-bottom:36px; }
+    h1 { margin:0 0 10px; font-size:40px; letter-spacing:-.03em; }
+    .intro { margin:0; color:var(--muted); line-height:1.7; }
+    article { padding:34px 36px 40px; background:#fff; border:1px solid var(--line); border-radius:20px; }
+    h2 { margin:30px 0 10px; font-size:21px; letter-spacing:-.01em; }
+    h2:first-child { margin-top:0; }
+    p, li { line-height:1.78; }
+    ul { margin:8px 0 0; padding-left:1.35em; }
+    a { color:var(--accent); }
+    .button { display:inline-block; margin-top:8px; padding:11px 17px; color:#fff; background:var(--accent); border-radius:10px; text-decoration:none; }
+    .button:hover { filter:brightness(.94); }
+    .back { display:inline-block; margin-top:28px; color:var(--accent); text-decoration:none; }
+    .back:hover { text-decoration:underline; }
+    footer { margin-top:36px; color:var(--muted); font-size:14px; }
+    @media (max-width:600px) { main { padding:40px 16px 64px; } article { padding:26px 22px 30px; } h1 { font-size:32px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>一隅支持</h1>
+      <p class="intro">一隅是一款在本机处理电子书的 macOS 状态栏阅读器。</p>
+    </header>
+
+    <article>
+      <h2>常见问题</h2>
+      <ul>
+        <li>通过“导入电子书”选择 EPUB、TXT、MOBI、AZW 或 AZW3 文件。</li>
+        <li>从菜单栏图标打开阅读窗口，可以按章节阅读、查找和复制文字。</li>
+        <li>MOBI、AZW 和 AZW3 不支持 DRM、Print Replica 或 KFX。</li>
+      </ul>
+
+      <h2>联系开发者</h2>
+      <p>如果遇到问题，请在 GitHub 仓库提交 Issue，并附上 macOS 版本、文件格式和可复现步骤。请不要上传包含个人信息的书籍文件或截图。</p>
+      <a class="button" href="https://github.com/cerisuicide/legal/issues/new?title=%E4%B8%80%E9%9A%85%E6%94%AF%E6%8C%81%EF%BC%9A">提交支持请求</a>
+
+      <h2>隐私</h2>
+      <p>一隅不收集或上传书籍内容、阅读进度和设置。详细说明请查看<a href="../">一隅隐私协议</a>。</p>
+    </article>
+
+    <a class="back" href="../../../">← 返回隐私协议目录</a>
+    <footer>© 2026 Yuan Gao</footer>
+  </main>
+</body>
+</html>
